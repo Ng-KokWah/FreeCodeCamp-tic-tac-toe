@@ -1,0 +1,52 @@
+body {
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+
+button {
+    border-style:solid;
+  background: linear-gradient(80deg, #0cf0f0, #ee1aa7, #5748d2);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 36s ease infinite;
+-moz-animation: AnimationName 36s ease infinite;
+animation: AnimationName 36s ease infinite;
+  color:black;
+  font-weight:900;
+  width:80px;
+  height:80px;
+}
+
+footer {
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+#start {
+  margin-top:20px;
+}
+
+#hide {
+  margin-left:630px;
+}
+
+#reset {
+  margin-right:630px;
+}

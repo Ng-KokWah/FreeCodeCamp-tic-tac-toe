@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onload="load()">
+<div id="wholepage">
+<h1>Tic Tac Toe</h1>
+  <div id="starting">
+  <p> Number of players?</p>
+<input type="radio" id="player1" onclick="players1()">1 Player</input>
+  <input type="radio" id="player2"  onclick="players2()">2 Players</input>
+  <div id="oneplayer">
+  <p>Choose to be X or O?</p>
+<input type="radio" id="oorx1" onclick="oorx1()">O</input>
+  <input type="radio" id="oorx2" onclick="oorx2()">X</input>
+</div>
+<div id="twoplayer">
+  <p>Player 1 choose to be X or O?</p>
+<input type="radio" id="oorx3" onclick="oorx3()">O</input>
+  <input type="radio" id="oorx4" onclick="oorx4()">X</input>
+<p>Player 2 choose to be X or O?</p>
+<input type="radio" id="oorx5" onclick="oorx5()">O</input>
+  <input type="radio" id="oorx6" onclick="oorx6()">X</input>
+</div>
+<br>
+<button id="start" onclick="validate()">START</button>
+ </div>
+<div id="hide">
+<table>
+  <tr>
+  <td><button id="one1" onclick='clicked("one1")'></button></td>
+  <td><button id="two1" onclick='clicked("two1")'></button></td>
+  <td><button id="three1" onclick='clicked("three1")'></button></td>
+  </tr>
+  <tr>
+  <td><button id="one2" onclick='clicked("one2")'></button></td>
+  <td><button id="two2" onclick='clicked("two2")'></button></td>
+  <td><button id="three2" onclick='clicked("three2")'></button></td>
+  </tr>
+  <tr>
+  <td><button id="one3" onclick='clicked("one3")'></button></td>
+  <td><button id="two3" onclick='clicked("two3")'></button></td>
+  <td><button id="three3" onclick='clicked("three3")'></button></td>
+  </tr>
+</table>
+  <br>
+  <button id="reset" onclick="reset()">Reset</button>
+</div>
+<footer>&copy; Coded by Ng Kok Wah</footer>
+</div>
+</body>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
